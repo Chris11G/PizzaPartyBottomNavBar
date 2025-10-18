@@ -24,7 +24,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-
+// ToDo 2: the slider should be able to change the text value of the screen
+// ToDo 3: Make the UI look better by adding a gradient background (vertical) and padding
 @Composable
 fun Screen3() {
     var sliderValue by remember { mutableStateOf(0.5f) }
